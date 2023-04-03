@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Stopwatch = () => {
   const [intervalId, setIntervalId] = useState<number | null>(null);

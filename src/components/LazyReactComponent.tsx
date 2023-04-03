@@ -1,4 +1,4 @@
-import React, { Suspense, ReactElement, lazy } from 'react';
+import { Suspense, ReactElement, lazy } from 'react';
 
 interface ErrorBoundaryProps {
   fallback: ReactElement | null;
